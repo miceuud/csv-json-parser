@@ -45,6 +45,6 @@ app.post('/upload', (req, res) => {
 });
 
 // listen for requests :)
-const listener = app.listen(PORT, () => {
-	console.log('Your app is listening on port ' + listener.address().port);
-});
+app.listen(PORT, () => {
+   console.log(`Your app is listening on port ${PORT}) 
+  });
