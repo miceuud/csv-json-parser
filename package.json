@@ -1,0 +1,29 @@
+{
+  "name": "csv-json-parser",
+  "version": "1.0.0",
+  "description": "Parse csv file to json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miceuud/csv-json-parser.git"
+  },
+  "keywords": [
+    "csv",
+    "json",
+    "parser"
+  ],
+  "author": "Mike Udoh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miceuud/csv-json-parser/issues"
+  },
+  "homepage": "https://github.com/miceuud/csv-json-parser#readme",
+  "dependencies": {
+    "csv-parse": "^4.15.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  }
+}
