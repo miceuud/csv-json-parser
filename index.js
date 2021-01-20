@@ -44,7 +44,6 @@ app.post('/upload', (req, res) => {
 	});
 });
 
-// listen for requests :)
-app.listen(PORT, () => {
-   console.log(`Your app is listening on port ${PORT}) 
-  });
+
+app.listen(PORT,  console.log(`Your app is listening on port ${PORT}`) ;
+
